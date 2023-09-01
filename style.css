@@ -1,0 +1,213 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--light-blue-light-blue-100, #F3F5FC);
+    display: inline;
+}
+.logo{
+    width: 250px;
+    height: auto;
+    margin-left: -20px;
+}
+
+header{
+    width: 100%;
+    font-family: inter;
+    color:  #0A3871;
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.intro{
+    background: rgb(45, 45, 104);
+    padding: 10px;
+    text-align: center;
+}
+
+#intro{
+    font-family: inter;
+    margin: 10px;
+    border-radius: 32px;
+    color:#F3F5FC;
+    font-weight: 100;
+}
+
+#imgBiomedic{
+    display: grid;
+    max-width: 100%;
+    height: auto;
+    float: inherit;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parrafo{
+    margin-left: 250px;
+    margin-top: 45px;
+    position: absolute;
+    float:inherit;
+    font-family: inter;
+    width: auto;
+    margin-right: auto;
+    
+}
+
+.parrafo h2{
+    font-size: 28px;
+    font-weight: 500px;
+}
+
+.recursos{
+    background: hwb(228 68% 10%);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 380px;
+    float: right;
+    margin-left: 464px;
+    margin-top: 40px;
+    padding: 10px;
+    margin-right: 250px;
+}
+
+.recursos h3{
+    font-family: inter;
+    font-size: 29px;
+    color: #0A3871;
+    text-align: center;
+}
+
+.recursos li{
+    list-style: none;
+}
+
+#somib{
+    width: 250px;
+    max-height: 100%;
+    height: auto;
+    margin-bottom: 70px;
+    transition: 0.3s;
+}
+
+#somib:hover{
+    opacity: 0.8;
+    width: 280px;
+    height: auto;
+    
+}
+
+#ulsa{
+    width: 250px;
+    height: auto;
+    margin-left: 8px;
+    transition: 0.3s;
+}
+
+#ulsa:hover{
+    opacity: 0.8;
+    width: 280px;
+    height: auto;
+    
+}
+
+table {
+    width: 70%;
+    float: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 550px;
+    border-collapse: collapse;
+    font-family: Inter;
+  }
+  
+  #encabezado{
+    background-color: #0A3871;
+  }
+
+  .restotabla{
+    background-color: #5a9ac5
+  }
+  
+  /* Encabezado de la tabla */
+  th {
+    color:#ddd ;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #2980b9;
+  }
+  
+  /* Estilo para las celdas de datos */
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .parrafo h3{
+    font-family: inter;
+    font-size: 39px;
+    float: inherit;
+    position:relative;
+    text-decoration:underline;
+    font-weight: lighter;
+    margin-left: 410px;
+    margin-right: auto;
+    margin-top: 15%;
+  }
+
+  
+  .form-container {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.form-container h3 {
+    color: #0A3871;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-container input[type="text"],
+.form-container select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container button[type="submit"],
+.form-container button[type="button"] {
+    background: #0A3871;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover,
+.form-container button[type="button"]:hover {
+    background: #08415C;
+}
+

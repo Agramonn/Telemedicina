@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion Biomedica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <img class="logo" src="img/logo.png" alt="Logopng">
+            <h1>Introducción a la Ingeniería Biomédica</h1>
+        </header>
+        <div class="intro">
+            <img id="imgBiomedic" src="img/biomedica.webp" alt="intro">
+            <p id="intro">La ingeniería biomédica combina principios de ingeniería con 
+            conocimientos de biología y medicina para...</p>
+        </div>
+        <div class="parrafo">
+            <h2>Definición</h2>
+                <p>La ingeniería biomédica es una disciplina que se enfoca en...</
+                p>
+            <h2>Aplicaciones</h2>
+                <ul>
+                <li>Equipos médicos y dispositivos de diagnóstico</li>
+                <li>Prótesis y órganos artificiales</li>
+                <li>Imagen médica y procesamiento de señales</li>
+                </ul>
+            <h2>Conclusiones</h2>
+                <p>La ingeniería biomédica juega un papel crucial en 
+                mejorar...</p>
+
+            <h3>TABLA HTML</h3>
+        </div>
+        <div class="recursos">
+            <h3>Recursos Externos</h3>
+                <ul>
+                <li><a href="https://www.rmib.mx/index.php/rmib"><img id="somib" src="img/somib.png" alt="somib"></a></li>
+                <li><a href="https://www.lasallenoroeste.edu.mx/licenciaturas/ingenieria-biomedica/"><img id="ulsa" src="img/ingeBiomedica.jpg" alt=""></a></li>
+                </ul>
+                
+        </div>
+        <div class="tabla">
+            <table>
+                <tr id="encabezado">
+                    <th>Numero</th>
+                    <th>Nombre materia</th>
+                    <th>Nombre Profesor</th>
+                    <th>Calificacion Final</th>
+                </tr>
+                <tr class="restotabla">
+                    <th>1</th>
+                    <th>Sistemas de calidad</th>
+                    <th>E. Andrade</th>
+                    <th>9</th>
+                </tr>
+                <tr class="restotabla">
+                    <th>2</th>
+                    <th>Diseno instrumentacion</th>
+                    <th>J. Armenta</th>
+                    <th>8</th>
+                </tr>
+                <tr class="restotabla">
+                    <th>3</th>
+                    <th>Proyecto inegrador</th>
+                    <th>J. Arroyo</th>
+                    <th>10</th>
+                </tr>
+                <tr class="restotabla">
+                    <th>4</th>
+                    <th>Ingenieria Clinica</th>
+                    <th>L. Oliva</th>
+                    <th>10</th>
+                </tr>
+                <tr class="restotabla">
+                    <th>5</th>
+                    <th>Consultoria</th>
+                    <th>I. Rivera</th>
+                    <th>8</th>
+                </tr>
+                <tr class="restotabla">
+                    <th>6</th>
+                    <th>Seminarios topicos</th>
+                    <th>R. Rivera</th>
+                    <th>10</th>
+                </tr>
+                <tr class="restotabla">
+                    <th>7</th>
+                    <th>Telemedicina</th>
+                    <th>I. Huerta</th>
+                    <th>4</th>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <div class="form-container">
+                <h3>Formulario</h3>
+                <form id="formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required><br><br>
+
+                    <label for="carrera">Carrera:</label>
+                    <select name="carrera" id="carrera" required>
+                        <option value="ingBiomedica">Ing. Biomédica</option>
+                        <option value="ingMecatronica">Ing. Mecatrónica</option>
+                        <option value="ingIndustrial">Ing. Industrial</option>
+                        <option value="ingMinas">Ing. Minas</option>
+                        <option value="ingRenovables">Ing. Renovables</option>
+                        <option value="fisioterapia">Fisioterapia</option>
+                        <option value="nutricion">Nutrición</option>
+                        <option value="derecho">Derecho</option>
+                    </select><br><br>
+
+                    <button type="submit">Enviar</button>
+                    <button type="button" id="limpiar">Limpiar</button>
+            </form>
+        </footer>
+    </main>
+</body>
+</html>
